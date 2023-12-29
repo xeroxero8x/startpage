@@ -7,6 +7,10 @@
 
 }
 
+body{
+    background-image: /*linear-gradient(rgba(226, 174, 3, 0.5), rgba(226, 174, 3, 0.5)), */url(./assets/img/bg.jpg);
+}
+
 /** Firefox Logo & Text **/
 .hero_text, .hero_png{
     display: inline-block;
@@ -40,6 +44,7 @@
     border: 2px solid rgba(71, 66, 66, .25);
     border-radius: 60px;
     padding: 10px 15px;
+    background: rgba(255, 255, 255 , .25);
 }
 .bar input{
     background: transparent;
@@ -55,6 +60,7 @@
     width: 45px;
     height: 45px;
     cursor: pointer;
+    background-color: rgb(226, 174, 3);
 }
 .bar button img{
     width: 25px;
