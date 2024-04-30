@@ -48,7 +48,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"awgykBKt0CbAAqlw","label":"Socials","bookmarks":[{"id":"RUaOSjg9WAqFnrL8","label":"Facebook","url":"fb.com"},{"id":"j0LH68QxgS5o86Zu","label":"Telegram","url":"web.telegram.org"}]},{"id":"U5FXEdCPAgO6nJbT","label":"Entertainment","bookmarks":[{"id":"vnUOCG2S0ANnJKSh","label":"YouTube","url":"youtebe.com"}]}]
+const bookmarks = [{"id":"awgykBKt0CbAAqlw","label":"Socials","bookmarks":[{"id":"RUaOSjg9WAqFnrL8","label":"Facebook","url":"https://facebook.com"},{"id":"j0LH68QxgS5o86Zu","label":"Telegram","url":"web.telegram.org"}]},{"id":"U5FXEdCPAgO6nJbT","label":"Entertainment","bookmarks":[{"id":"vnUOCG2S0ANnJKSh","label":"YouTube","url":"youtebe.com"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
