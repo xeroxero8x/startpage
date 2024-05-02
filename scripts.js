@@ -48,7 +48,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"awgykBKt0CbAAqlw","label":"Socials","bookmarks":[{"id":"RUaOSjg9WAqFnrL8","label":"Facebook","url":"https://facebook.com"},{"id":"j0LH68QxgS5o86Zu","label":"Telegram","url":"web.telegram.org"}]},{"id":"U5FXEdCPAgO6nJbT","label":"Entertainment","bookmarks":[{"id":"vnUOCG2S0ANnJKSh","label":"YouTube","url":"youtebe.com"}]}]
+const bookmarks = [{"id":"awgykBKt0CbAAqlw","label":"Socials","bookmarks":[{"id":"RUaOSjg9WAqFnrL8","label":"Facebook","url":"https://facebook.com"},{"id":"j0LH68QxgS5o86Zu","label":"Telegram","url":"https://web.telegram.org/a/"},{"id":"az2frf5NNSF7rbtM","label":"Gmail","url":"https://mail.google.com/"}]},{"id":"U5FXEdCPAgO6nJbT","label":"Entertainment","bookmarks":[{"id":"vnUOCG2S0ANnJKSh","label":"YouTube","url":"https://youtube.com"}]},{"id":"WdTbMrRLhhmFGURg","label":"Misc","bookmarks":[{"id":"ZS5QBxuaIVSU36i9","label":"ChatGPT","url":"https://chat.openai.com/"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
